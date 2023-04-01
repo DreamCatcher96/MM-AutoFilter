@@ -620,7 +620,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                   InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
                   InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                ],[
-                  InlineKeyboardButton("📥 Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋ 📥", url="Movies_Stream")
+                  InlineKeyboardButton("📥 Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋ 📥", url="t.me/Movies_Stream")
                  ]
                 ]
             )
