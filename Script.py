@@ -191,16 +191,13 @@ Nᴀᴍᴇ - {}"""
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """
-<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
+<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : <code>{file_name}</code></b>
 
+<b>Size: <code>{file_size}</code></b>
 <b>
-╭─────── • ◆ • ───────╮
-🔅 Dᴀʀᴋ Mᴏᴅᴇ :  <a href="https://t.me/addtheme/DQ_The_File_Donor_Theme">Tᴏᴜᴄʜ</a>
-╰─────── • ◆ • ───────╯
-
 =========== • ✠ • ===========
-▫️ ᴄʜᴀɴɴᴇʟ : @DQ_The_File_Donor_Updates
-▫️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @DQ_The_File_Donor_Support
+▫️ ᴄʜᴀɴɴᴇʟ : @Film_ClubChannel
+▫️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @Film_ClubGroup
 =========== • ✠ • ===========</b>"""
 
     IMDB_TEMPLATE_TXT = """
