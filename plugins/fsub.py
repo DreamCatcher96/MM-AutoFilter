@@ -63,16 +63,16 @@ async def Force_Sub(bot: Client, message: Message, file_id = False, mode = "chec
     except UserNotParticipant:
         btn = [
                 [
-                InlineKeyboardButton("❆ Jᴏɪɴ Oᴜʀ Bᴀᴄᴋ-Uᴘ Cʜᴀɴɴᴇʟ ❆", url=link.invite_link)
+                InlineKeyboardButton("🍿ᴊᴏɪɴ ᴏᴜʀ ʙᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ🍿", url=link.invite_link)
             ]
         ]
         if file_id != False:
-            btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", callback_data=f"{mode}#{file_id}")])
+            btn.append([InlineKeyboardButton("🔄 𝗧𝗥𝗬 𝗔𝗚𝗔𝗜𝗡 🔄", callback_data=f"{mode}#{file_id}")])
         else:
             pass
 
         await message.reply(
-            text="**You are not in our Back-up channel given below so you don't get the movie file...\n\nIf you want the movie file, click on the '🍿ᴊᴏɪɴ ᴏᴜʀ ʙᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ🍿' button below and join our back-up channel, then click on the '🔄 Try Again' button below...\n\nThen you will get the movie files...**",
+            text="♦️ **READ THIS INSTRUCTION** ♦️\n\n🗣 __ഗ്രൂപ്പിൽ ചോദിക്കുന്ന സിനിമകൾ നിങ്ങൾക്ക് ലഭിക്കണം എന്നുണ്ടെങ്കിൽ നിങ്ങൾ താഴെ കൊടുത്തിട്ടുള്ള ചാനലിൽ ജോയിൻ ചെയ്യണം. ജോയിൻ ചെയ്ത ശേഷം വീണ്ടും ഗ്രൂപ്പിൽ പോയി ആ ബട്ടനിൽ അമർത്തിയാൽ നിങ്ങൾക്ക് ഞാൻ ആ സിനിമ പ്രൈവറ്റ് ആയി അയച്ചു തരുന്നതാണ്..__😍\n\n🗣 __In Order To Get The Movies Requested By You in Our Groups, You Will Have To Click On '🍿ᴊᴏɪɴ ᴏᴜʀ ʙᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ🍿' First. After That, Try Accessing That Movie Again From Our Group Or Click 🔄 𝗧𝗥𝗬 𝗔𝗚𝗔𝗜𝗡 🔄 Button. I'll Send You That Movie Privately__ 🙈 \n\n👇 **JOIN THIS CHANNEL & TRY** 👇",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
         )
